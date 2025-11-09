@@ -108,8 +108,9 @@ Step 4 — DMO mappings, transformations & normalization
 
 Use Data Cloud mapping tools to adjust DMO field mappings, normalizations, and enrichment (e.g., add product metadata, region, language). Example DMOs you will see:
 
+```
 ssot__KnowledgeArticle__dlm / ssot__KnowledgeArticleEngagement__dlm (engagements). 
-
+```
 
 Create derived fields for RAG – e.g., searchable_text that concatenates title, summary, body, metadata, and important tags for retrieval vectors.
 
